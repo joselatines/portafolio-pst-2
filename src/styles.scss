@@ -26,9 +26,37 @@
   padding: 5rem 0rem;
 }
 
-
 .fixed-img {
-  height: 280px;
+  height: 100% !important;
+  width: 100% !important;
   object-fit: cover;
   object-position: center;
+}
+
+.about-wrapper__image {
+  height: 200px;
+  width: 100% !important;
+}
+
+.team-member {
+display: grid;
+align-items: center;
+max-width: 200px;
+
+min-height: 300px;
+max-height: 300px;
+}
+
+.project-wrapper__image {
+  height: 400px;
+  width: 500px;
+}
+
+.project-element {
+  margin-bottom: 20rem;
+}
+
+.cuento-wrapper__image {
+  max-height: auto;
+  max-width: 800px;
 }
