@@ -39,12 +39,12 @@
 }
 
 .team-member {
-display: grid;
-align-items: center;
-max-width: 200px;
+  display: grid;
+  align-items: center;
+  max-width: 200px;
 
-min-height: 300px;
-max-height: 300px;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 .project-wrapper__image {
@@ -59,4 +59,14 @@ max-height: 300px;
 .cuento-wrapper__image {
   max-height: auto;
   max-width: 800px;
+}
+
+p {
+  text-align: justify;
+}
+
+@media (max-width: 700px) {
+  .levantamiento-flex {
+    flex-wrap: wrap;
+  }
 }
