@@ -16,3 +16,19 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+.section-colored {
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+.actividad-page {
+  padding: 5rem 0rem;
+}
+
+
+.fixed-img {
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}

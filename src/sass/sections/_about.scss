@@ -12,6 +12,10 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 10%;
 
+  .equipo {
+    gap: 3.5rem;
+  }
+
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;
@@ -25,7 +29,6 @@
 
     &__image {
       display: flex;
-      height: 100%;
       align-items: center;
       justify-content: center;
 
@@ -75,5 +78,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .equipo {
+    flex-wrap: wrap;
   }
 }
